@@ -1,0 +1,28 @@
+{
+    "user":
+                [
+            {"name":"Siva",
+            "location":"Bengaluru",
+            "likes":64,
+            "description": "Beautiful birds",
+            "PostImage": "https://media.istockphoto.com/photos/eastern-bluebirds-male-and-female-picture-id183412466?k=20&m=183412466&s=612x612&w=0&h=xaDRkk-cq7jZglzGO-UTn8Y0tNMHqFBnI5-tIzM68c0=",
+            "date": "3 April 2022"
+            },
+            {"name":"Neeraj",
+            "location":"Pune",
+            "likes":30,
+            "description": "Beautiful bird",
+            "PostImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnjl1ZWPG8PTyXDIDZwwr2Z7VqwmrOynpVnw&usqp=CAU",
+            "date": "3 April 2022"
+            },
+            {"name":"Rahul",
+            "location":"Hyderabad",
+            "likes":30,
+            "description": "Beautiful bird",
+            "PostImage": "https://cdn.download.ams.birds.cornell.edu/api/v1/asset/202984001/1200",
+            "date": "03 April 2022"
+            }
+            ]
+}
+ 
+ 
