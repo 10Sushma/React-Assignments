@@ -1,6 +1,8 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import CustomerInfo from './Customer-info';
+import OrderInfo from './Order-info';
+import ProductList from './Product-list';
 var arrow="<"
 var arrow1='>'
 const object = {
@@ -9,6 +11,18 @@ const object = {
     Appointment: '09:00 (24-05-2016)',
     Email: 'alan.form@email.nl',
     Phone: '+31123456789'
+}
+const order={
+  status:'In Progress',
+  door:'Mark',
+  time:'10:30' ,
+  date:'(25-05-2016)'
+
+}
+const product={
+      image:"https://www.w3schools.com/howto/img_avatar.png",
+      content:'Boltaart Bosbessen',
+     description:'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
 }
 function App() {
   return (
@@ -19,39 +33,10 @@ function App() {
       <p><b>{object.Name}</b><br></br><span>{object.EmployeeID}</span></p>
       <button type="button">Print</button>
     </header>
-    <div className="customer-info">
-      <p><b>Appointment </b>{object.Appointment}</p>
-      <p><b>Email: </b>{object.Email}</p>
-      <p><b>Phone </b>{object.Phone}</p> 
-    </div>
-    <div className="order-info">
-    <p><b>Status</b><br></br>
-      <ul>
-        <li>In Progress</li>
-      </ul>
-    </p>
-    <p><b>Door</b><br></br>
-      Mark
-    </p>
-    <p className='time'><b>Time</b><br></br>
-      10:30 
-      <span>(25-05-2016)</span>
-    </p>
-    </div>
-    <div className="product-list">
-      <div className='img1'>
-        <div className='orange'></div>
-      <img src="https://www.w3schools.com/howto/img_avatar.png"/>
-      </div>
-      <div className='content'>
-      <h2>Boltaart Bosbessen</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-        </p>
-        
-        </div>
-        <p className='ar'>{arrow1}</p>
-    </div>
+    <CustomerInfo object={object}/>
+    <OrderInfo order={order}/>
+    <ProductList product={product}/>
+       
     </div>
   );
 }
