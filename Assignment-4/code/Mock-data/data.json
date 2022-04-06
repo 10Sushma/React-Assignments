@@ -1,0 +1,28 @@
+{
+    "user":
+                [
+            {"name":"Siva",
+            "location":"Bengaluru",
+            "likes":64,
+            "description": "Beautiful birds",
+            "PostImage": "./images/img1.jpg",
+            "date": "3 April 2022"
+            },
+            {"name":"Neeraj",
+            "location":"Pune",
+            "likes":30,
+            "description": "Beautiful bird",
+            "PostImage": "./images/img1.jpg",
+            "date": "3 April 2022"
+            },
+            {"name":"Rahul",
+            "location":"Hyderabad",
+            "likes":30,
+            "description": "Beautiful bird",
+            "PostImage":"./images/img3.jpg",
+            "date": "03 April 2022"
+            }
+            ]
+}
+ 
+ 
